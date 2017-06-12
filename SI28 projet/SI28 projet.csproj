@@ -113,6 +113,7 @@
     <Compile Include="Assets\script\france.cs" />
     <Compile Include="Assets\script\imgtop.cs" />
     <Compile Include="Assets\script\nourriture.cs" />
+    <Compile Include="Assets\script\porte1.cs" />
     <Compile Include="Assets\script\restaurant.cs" />
     <Compile Include="Assets\script\restaurantfrancais.cs" />
     <Compile Include="Assets\script\shanghai.cs" />
@@ -123,6 +124,7 @@
     <None Include="Assets\ScriptVocal\Script\NLP\README.txt" />
     <None Include="Assets\ScriptVocal\lib\Newtonsoft.Json.xml" />
     <None Include="Assets\lib\Newtonsoft.Json.xml" />
+    <None Include="Assets\script\carteRestaurant.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

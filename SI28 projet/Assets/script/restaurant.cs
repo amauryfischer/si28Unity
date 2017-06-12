@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+
 public class restaurant : MonoBehaviour {
 	public Image angrygirl2;
 	public Image stargirl2;
@@ -17,7 +18,7 @@ public class restaurant : MonoBehaviour {
 			Debug.Log("Mouse enter");
 			angrygirl2.enabled = false;
 			stargirl2.enabled = true;
-			textgirl2.text = "Je crois qu'il me demande si j'aimerais manger ici, c'est vrai que ca sent bon...";
+			textgirl2.text = "Je crois qu'il me demande si j'aimerais manger ici, c'est vrai que ca sent bon... Allons voir de plus près";
 			isOverRestaurant = true;
 	}
 	public void OnMouseExit()
