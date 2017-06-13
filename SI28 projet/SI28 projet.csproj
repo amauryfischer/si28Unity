@@ -110,6 +110,7 @@
     <Compile Include="Assets\ScriptVocal\Script\lib\JSON.cs" />
     <Compile Include="Assets\audio_app.cs" />
     <Compile Include="Assets\lib\JSON.cs" />
+    <Compile Include="Assets\script\CarteRestoscript.cs" />
     <Compile Include="Assets\script\france.cs" />
     <Compile Include="Assets\script\imgtop.cs" />
     <Compile Include="Assets\script\nourriture.cs" />

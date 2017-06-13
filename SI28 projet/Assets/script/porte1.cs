@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 public class porte1 : MonoBehaviour {
-	public sprite angryboy2;
-	public sprite starboy2;
-	public sprite borderboy2;
-	public sprite boyfont2;
+	public Image angryboy2;
+	public Image starboy2;
+	public Image borderboy2;
+	public Image boyfont2;
+	public Image porte2;
 	public Text textboy2;
 	/*public AudioSource audioRestaurant ;*/
 	public bool isOverPorte1 = false;
@@ -22,6 +23,7 @@ public class porte1 : MonoBehaviour {
 			angryboy2.enabled = false;
 			borderboy2.enabled = true;
 			boyfont2.enabled = true;
+			porte2.enabled = true;
 			textboy2.enabled = true;
 			starboy2.enabled = true;
 			textboy2.text = "J'ai un petit creux, je pense que je vais manger ici";
@@ -32,6 +34,7 @@ public class porte1 : MonoBehaviour {
 			angryboy2.enabled = false;
 			borderboy2.enabled = false;
 			boyfont2.enabled = false;
+			porte2.enabled = false;
 			textboy2.enabled = false;
 			starboy2.enabled = false;
 			Debug.Log("Mouse exit");
