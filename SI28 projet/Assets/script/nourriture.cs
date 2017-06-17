@@ -29,7 +29,7 @@ public class nourriture : MonoBehaviour {
 			textgirl2.enabled = true;
 			girlfont2.enabled = true;
 			cryinggirl.enabled = true;
-			textgirl2.text = "Je crois qu'il me demande si j'aimerais manger ici, voyons voir si je peux commander.";
+			textgirl2.text = "Je crois qu'il me demande si j'aimerais manger ici, je ne vais jamais réussir à commander !!!";
 			isOverNourriture = true;
 	}
 	public void OnMouseExit()

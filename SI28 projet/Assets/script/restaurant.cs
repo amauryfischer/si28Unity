@@ -4,11 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
-
 public class restaurant : MonoBehaviour {
 	public Image angrygirl2;
 	public Image stargirl2;
-	public Image click2;
 	public Text textgirl2;
 	public AudioSource audioRestaurant ;
 	public bool isOverRestaurant = false;
@@ -19,14 +17,12 @@ public class restaurant : MonoBehaviour {
 			Debug.Log("Mouse enter");
 			angrygirl2.enabled = false;
 			stargirl2.enabled = true;
-			click2.enabled = true;
-			textgirl2.text = "Ce chinois semble m'appeler. C'est vrai que ça sent bon... Allons voir de plus près";
+			textgirl2.text = "Je crois qu'il me demande si j'aimerais manger ici, c'est vrai que ca sent bon...";
 			isOverRestaurant = true;
 	}
 	public void OnMouseExit()
 	{
 			stargirl2.enabled = false;
-			click2.enabled = false;
 			Debug.Log("Mouse exit");
 			isOverRestaurant = false;
 	}

@@ -22,7 +22,7 @@ public class restaurantfrancais : MonoBehaviour
         starboy.enabled = true;
         boyfont.enabled = true;
         textboy.enabled = true;
-        textboy.text = "Les restaurants sont plutôt chics, ça ne ressemble pas du tout à mes coins préférés pour manger en Chine";
+        textboy.text = "J'aimerais avoir la carte s'il vous plait !";
     }
     public void OnMouseExit()
     {

@@ -24,7 +24,7 @@ public class shanghai : MonoBehaviour
         stargirl.enabled = true;
         girlfont.enabled = true;
         textgirl.enabled = true;
-        textgirl.text = "Oh j'ai l'impression qu'il y a beaucoup de monde dans les rues de Shanghai. D'un côté, ils sont 24 millions d'habitants...";
+        textgirl.text = "Oh j'ai l'impression qu'il y a beaucoup de monde dans les rues de Shanghai";
       }
     }
     public void OnMouseExit()
