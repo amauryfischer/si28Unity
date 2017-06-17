@@ -20,10 +20,10 @@ namespace UnityHttpReq
         {
 
             // HTML-decode the string, in case it has been HTML encoded
-            string jsonText = HttpUtility.HtmlDecode(text);
-
+            //string jsonText = HttpUtility.HtmlDecode(text);
+            string jsonText = text;
             //Since object is reserved, put a _ in front
-            jsonText = jsonText.Replace("\"object\" : {", "\"_object\" : {");
+            //jsonText = jsonText.Replace("\"object\" : {", "\"_object\" : {");
 
 
             //Deserialize into our class

@@ -55,7 +55,7 @@ namespace UnityHttpReq
           req.Send((request) =>
           {
               UnityEngine.Debug.Log(request.response.Text);
-              UnityEngine.Debug.Log(ElaborateResponse(request.response.Text));
+              ElaborateResponse(request.response.Text);
           });
 
         }
@@ -71,12 +71,18 @@ namespace UnityHttpReq
                 throw new Exception("The remote server returned an error: (400) Bad Request");
                 //return "Sorry, didn't get that. Could you please repeat yourself?";
             }
-
+            if (nlp_text.Contains("你好")) {
+              UnityEngine.Debug.Log("success");
+            } else {
+              UnityEngine.Debug.Log("fail try again");
+            }
             oNLP = Post_NLP_Processing.ParseData(nlp_text);
+            UnityEngine.Debug.Log(oNLP._text);
+
 
             // This codeblock dynamically casts the intent to the corresponding class
             // Check README.txt in Vitals.Brain
-            Assembly objAssembly;
+            /*Assembly objAssembly;
             objAssembly = Assembly.GetExecutingAssembly();
 
 	          Type classType = objAssembly.GetType("UnityHttpReq." + oNLP.outcomes[0].intent);
@@ -96,7 +102,8 @@ namespace UnityHttpReq
             //nlp_text += "\n\n"+sentence;
 
             return sentence;
-
+            */
+            return "true";
         }
 
 
