@@ -24,7 +24,7 @@ public class shanghai_restaurant_script : MonoBehaviour
         stargirl.enabled = true;
         girlfont.enabled = true;
         textgirl.enabled = true;
-        textgirl.text = "Hmm, ca sent incroyablement bon...";
+        textgirl.text = "Hmm, l'odeur des plats me donne faim";
       }
     }
     public void OnMouseExit()

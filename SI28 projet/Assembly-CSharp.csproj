@@ -63,9 +63,11 @@
      <Compile Include="Assets\ScriptVocal\Script\lib\JSON.cs" />
      <Compile Include="Assets\audio_app.cs" />
      <Compile Include="Assets\lib\JSON.cs" />
+     <Compile Include="Assets\script\CarteRestoscript.cs" />
      <Compile Include="Assets\script\france.cs" />
      <Compile Include="Assets\script\imgtop.cs" />
      <Compile Include="Assets\script\nourriture.cs" />
+     <Compile Include="Assets\script\porte1.cs" />
      <Compile Include="Assets\script\restaurant.cs" />
      <Compile Include="Assets\script\restaurantfrancais.cs" />
      <Compile Include="Assets\script\shanghai.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\script\startscript.cs" />
      <None Include="Assets\lib\Newtonsoft.Json.xml" />
      <None Include="Assets\ScriptVocal\Script\NLP\README.txt" />
+     <None Include="Assets\script\carteRestaurant.txt" />
      <None Include="Assets\ScriptVocal\lib\Newtonsoft.Json.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -96,19 +99,19 @@
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/amauey/SI28 projet/Assets/ScriptVocal/lib/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/amauey/si28Unity/SI28 projet/Assets/ScriptVocal/lib/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="System.Web">
- <HintPath>/home/amauey/SI28 projet/Assets/ScriptVocal/lib/System.Web.dll</HintPath>
+ <HintPath>/home/amauey/si28Unity/SI28 projet/Assets/ScriptVocal/lib/System.Web.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zlib">
- <HintPath>/home/amauey/SI28 projet/Assets/ScriptVocal/Script/lib/Ionic.Zlib.dll</HintPath>
+ <HintPath>/home/amauey/si28Unity/SI28 projet/Assets/ScriptVocal/Script/lib/Ionic.Zlib.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zlib">
- <HintPath>/home/amauey/SI28 projet/Assets/lib/Ionic.Zlib.dll</HintPath>
+ <HintPath>/home/amauey/si28Unity/SI28 projet/Assets/lib/Ionic.Zlib.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/amauey/SI28 projet/Assets/lib/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/amauey/si28Unity/SI28 projet/Assets/lib/Newtonsoft.Json.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
