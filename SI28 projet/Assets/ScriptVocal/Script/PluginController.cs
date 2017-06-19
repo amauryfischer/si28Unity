@@ -18,6 +18,7 @@ public class PluginController : MonoBehaviour {
   private bool recording = false;
   private bool enRec = true;
   private string speechfilename = "";
+  public Text textboy;
 	// Use this for initialization
   private System.Timers.Timer speechTimer = new System.Timers.Timer();
 
@@ -70,7 +71,7 @@ public class PluginController : MonoBehaviour {
   			speechTimer.Enabled = false;
   			enRec = false;
 
-  			processor.ProcessSpokenFile();
+  			processor.ProcessSpokenFile(textboy);
 
   			enRec = true;
   		}
@@ -82,8 +83,7 @@ public class PluginController : MonoBehaviour {
               SavWav.Save("amaurytest", audioSource.clip);
             }
             if(Input.GetKeyDown("s")) {
-              print("debut");
-              processor.ProcessSpokenFile();
+              processor.ProcessSpokenFile(textboy);
             }
             if (Input.GetKeyDown("y")) {
               audioSource.clip = Microphone.Start("Built-in Microphone", false, 5, 44100);

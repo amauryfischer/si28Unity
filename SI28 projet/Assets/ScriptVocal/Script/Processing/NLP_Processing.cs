@@ -13,6 +13,7 @@ using System.Collections;
 using System.Reflection;
 using UnityEngine;
 using HTTP;
+using UnityEngine.UI;
 
 namespace UnityHttpReq
 {
@@ -37,7 +38,7 @@ namespace UnityHttpReq
             return true;
         }
 
-        public void ProcessSpokenFile()
+        public void ProcessSpokenFile(Text mytext)
         {
           string file = @"/home/amauey/.config/unity3d/DefaultCompany/SI28 projet/amaurytest.wav";
 			    //UnityEngine.Debug.Log ("File reading");
@@ -55,13 +56,13 @@ namespace UnityHttpReq
           req.Send((request) =>
           {
               UnityEngine.Debug.Log(request.response.Text);
-              ElaborateResponse(request.response.Text);
+              ElaborateResponse(request.response.Text, mytext);
           });
 
         }
 
 
-        private string ElaborateResponse(string nlp_text)
+        private string ElaborateResponse(string nlp_text, Text mytext)
         {
             UnityEngine.Debug.Log(nlp_text);
 
@@ -77,6 +78,7 @@ namespace UnityHttpReq
               UnityEngine.Debug.Log("fail try again");
             }
             oNLP = Post_NLP_Processing.ParseData(nlp_text);
+            mytext.text = oNLP._text;
             UnityEngine.Debug.Log(oNLP._text);
 
 

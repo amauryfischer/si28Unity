@@ -18,8 +18,6 @@
 -r:Assets/lib/Ionic.Zlib.dll
 -r:Assets/lib/Newtonsoft.Json.dll
 -r:/opt/Unity/Editor/Data/Managed/UnityEditor.dll
--r:/opt/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll
--r:/opt/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -107,6 +105,15 @@ Assets/ScriptVocal/Script/Processing/NLP_Processing.cs
 Assets/ScriptVocal/Script/Processing/Post_NLP_Processing.cs
 Assets/ScriptVocal/Script/SavWav.cs
 Assets/ScriptVocal/Script/lib/JSON.cs
+Assets/animation_scripts/LvlManager.cs
+Assets/animation_scripts/changescene.cs
+Assets/animation_scripts/move.cs
+Assets/animation_scripts/movechopstick1.cs
+Assets/animation_scripts/movechopstick2.cs
+Assets/animation_scripts/score.cs
+Assets/animation_scripts/scorelayour.cs
+Assets/animation_scripts/scoremanager.cs
+Assets/animation_scripts/timer.cs
 Assets/audio_app.cs
 Assets/lib/JSON.cs
 Assets/script/CarteRestoscript.cs
@@ -119,6 +126,10 @@ Assets/script/restaurantfrancais.cs
 Assets/script/shanghai.cs
 Assets/script/shanghai_restaurant_script.cs
 Assets/script/startscript.cs
+Assets/script/telecommande.cs
+Assets/script_to_delete.cs
+Assets/to_delete.cs
+Assets/to_poubelle.cs
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/System.Runtime.Serialization.dll
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/System.Xml.Linq.dll
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll

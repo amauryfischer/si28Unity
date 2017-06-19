@@ -20,7 +20,7 @@ public class restaurant : MonoBehaviour {
 			angrygirl2.enabled = false;
 			stargirl2.enabled = true;
 			click2.enabled = true;
-			textgirl2.text = "Ce chinois semble m'appeler. C'est vrai que ça sent bon... Allons voir de plus près";
+			textgirl2.text = "Ce chinois semble m'appeler. C'est vrai que ça sent bon... Allons voir de plus près (cliquez pour aller a la scene suivante)";
 			isOverRestaurant = true;
 	}
 	public void OnMouseExit()
@@ -33,8 +33,10 @@ public class restaurant : MonoBehaviour {
 	public void Update()
 	{
 		if (Input.GetMouseButtonDown(0)){
-			Debug.Log("Pressed left click.");
-			Application.LoadLevel("scene_restaurant");
+			if (isOverRestaurant) {
+				Debug.Log("Pressed left click.2");
+				Application.LoadLevel("scene_restaurant");
+			}
 		}
 		if(isOverRestaurant==true && isPlayingRestaurant==false){
 			audioRestaurant.Play();

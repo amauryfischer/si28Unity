@@ -12,8 +12,8 @@ public class startscript : MonoBehaviour {
 	public Image angrygirl;
 	public Image stargirl;
 	public Image girlfont;
-	public Image cryinggirl;
 	public Text textgirl;
+	public Image smilingboy;
 	// Use this for initialization
 	void Start () {
 		borderboy.enabled = false;
@@ -26,6 +26,6 @@ public class startscript : MonoBehaviour {
 		stargirl.enabled = false;
 		girlfont.enabled = false;
 		textgirl.enabled = false;
-		cryinggirl.enabled = false;
+		smilingboy.enabled = false;
 	}
 }

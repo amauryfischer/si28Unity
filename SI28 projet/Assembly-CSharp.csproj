@@ -61,6 +61,15 @@
      <Compile Include="Assets\ScriptVocal\Script\Processing\Post_NLP_Processing.cs" />
      <Compile Include="Assets\ScriptVocal\Script\SavWav.cs" />
      <Compile Include="Assets\ScriptVocal\Script\lib\JSON.cs" />
+     <Compile Include="Assets\animation_scripts\LvlManager.cs" />
+     <Compile Include="Assets\animation_scripts\changescene.cs" />
+     <Compile Include="Assets\animation_scripts\move.cs" />
+     <Compile Include="Assets\animation_scripts\movechopstick1.cs" />
+     <Compile Include="Assets\animation_scripts\movechopstick2.cs" />
+     <Compile Include="Assets\animation_scripts\score.cs" />
+     <Compile Include="Assets\animation_scripts\scorelayour.cs" />
+     <Compile Include="Assets\animation_scripts\scoremanager.cs" />
+     <Compile Include="Assets\animation_scripts\timer.cs" />
      <Compile Include="Assets\audio_app.cs" />
      <Compile Include="Assets\lib\JSON.cs" />
      <Compile Include="Assets\script\CarteRestoscript.cs" />
@@ -73,6 +82,10 @@
      <Compile Include="Assets\script\shanghai.cs" />
      <Compile Include="Assets\script\shanghai_restaurant_script.cs" />
      <Compile Include="Assets\script\startscript.cs" />
+     <Compile Include="Assets\script\telecommande.cs" />
+     <Compile Include="Assets\script_to_delete.cs" />
+     <Compile Include="Assets\to_delete.cs" />
+     <Compile Include="Assets\to_poubelle.cs" />
      <None Include="Assets\lib\Newtonsoft.Json.xml" />
      <None Include="Assets\ScriptVocal\Script\NLP\README.txt" />
      <None Include="Assets\script\carteRestaurant.txt" />
